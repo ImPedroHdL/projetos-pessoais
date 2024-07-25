@@ -1,0 +1,139 @@
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b4331b5b-d92e-4cc6-aebc-ac5bb344b270/degvzjf-9d9e22bc-edcc-4171-8b26-8cc55eb6b822.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I0MzMxYjViLWQ5MmUtNGNjNi1hZWJjLWFjNWJiMzQ0YjI3MFwvZGVndnpqZi05ZDllMjJiYy1lZGNjLTQxNzEtOGIyNi04Y2M1NWViNmI4MjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7l-qTrgTbwRQK6CYSvTH9UdavPF0aT7XMWjfRebB3SM");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.background-login {
+    background-image: url("https://w0.peakpx.com/wallpaper/942/918/HD-wallpaper-godzilla-amoled-gojira-paint-sketch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    backdrop-filter: blur(3px);
+    border: 1px solid lightcyan;
+    box-shadow: 2px 2px 20px 2px darkblue;
+    border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+}
+#background-login:hover{
+    background-size: 110%;
+}
+
+.background-register {
+    padding: 0px;
+    /* backdrop-filter: blur(3px);
+    border: 1px solid lightcyan;
+    box-shadow: 2px 2px 20px 2px darkblue;
+    border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px;
+    height: 50%; */
+}
+
+form {
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    margin-top: 10px;
+    background: none;
+
+    border: 1px black solid;
+    border-radius: 4px;
+
+    text-align: center;
+
+    backdrop-filter: blur(10px);
+}
+
+input:hover {
+    box-shadow: 0px 2px 2px 0px lightskyblue;
+    background-color: lightyellow;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+button {
+    font-weight: bold;
+    margin-top: 10px;
+    background: none;
+    border: 1px black solid;
+    border-radius: 4px;
+    transition: 0.2px;
+    color: lightpink;
+}
+
+button:hover {
+    box-shadow: 0px 2px 2px 0px lightskyblue;
+
+}
+
+::placeholder {
+    color: lightpink;
+    font-weight: bold;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+
+    color: lightpink;
+
+}
+
+footer {
+    padding: 3px;
+    backdrop-filter: blur(3px);
+    box-shadow: 2px 2px 20px 2px darkblue;
+    border-radius: 3px;
+    color: lightgray;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+
+}

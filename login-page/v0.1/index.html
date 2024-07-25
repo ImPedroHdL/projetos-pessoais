@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="background-login">
+        <div id="conteiner-form-login"></div>
+
+        <form onsubmit="logIn(event)">
+            <h1>PHtech Solutions</h1>
+
+            <label for="user-login">
+                <input type="text" name="username-login" id="user-login" placeholder="USUÁRIO">
+            </label>
+
+            <label for="user-pw">
+                <input type="password" name="user-password" id="user-pw" placeholder="SENHA">
+            </label>
+
+            <div id="buttons">
+                <button type="submit">LOGIN</button> <!-- botao de envio de formulario de login -->
+                <button onclick="show(event)">REGISTRAR</button> <!-- botao de envio de senha de loin -->
+            </div>
+        </form>
+    </div>
+
+    <div class="background-register hidden">
+        <div id="conteiner-form-register">
+            <form onsubmit="register(event)">
+                <h1>PHtech Solutions</h1>
+
+                <label for="user-register">
+                    <input type="text" name="user-name-register" id="user-register" placeholder="USUÁRIO">
+                </label>
+
+                <label for="password-register">
+                    <input type="password" name="user-password-register" id="password-register" placeholder="SENHA">
+                </label>
+
+                <label for="confirm-pass">
+                    <input type="password" name="confirm-user-password" id="confirm-pass" placeholder="REPITA A SENHA">
+                </label>
+
+                <label for="user-email">
+                    <input type="email" name="user-email-register" id="user-email" placeholder="E-MAIL">
+                </label>
+
+                <button type="submit">REGISTRAR</button>
+                <button onclick="showLogIn()">JÁ POSSUI CONTA? ENTRAR</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>PÁGINA VOLTADA A ESTUDOS E PRÁTICA, CONTÉM ERROS A SEREM CORRIGIDOS, ESSA É A v0.1, OU SEJA, APENAS UM
+        PROTÓTIPO! @ph.daluzz</footer>
+</body>
+
+</html>

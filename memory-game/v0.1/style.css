@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.conteiner-fotos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+img {
+
+    width: 400px;
+    height: auto;
+    box-shadow: 10px 10px 10px 10px rgb(156, 156, 156);
+    transition: 0.4s;
+}
+
+img:hover{
+    box-shadow: 10px 10px 10px 10px rgb(44, 44, 44);
+    mask-image: none;
+}
