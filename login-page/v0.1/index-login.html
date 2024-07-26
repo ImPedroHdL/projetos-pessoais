@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <script src="script-login.js"></script>
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="background-login">
+        <div id="conteiner-form-login">
+            <h1>PHtech Solutions</h1>
+            <div id="div-form">
+                <form onsubmit="logIn(event)">
+                    <label for="user-login">
+                        <input type="text" name="username-login" id="user-login" placeholder="USUÁRIO">
+                    </label>
+                    <label for="user-pw">
+                        <input type="password" name="user-password" id="user-pw" placeholder="SENHA">
+                    </label>
+                    <a href="index-register.html">
+                        <button id="register-button" type="button" onclick="show(event)">REGISTRAR</button>
+                    </a>
+                    <button id="submit-button" type="submit">LOGIN</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>PÁGINA VOLTADA A ESTUDOS E PRÁTICA, CONTÉM ERROS A SEREM CORRIGIDOS, ESSA É A v0.1, OU SEJA, APENAS UM
+        PROTÓTIPO! @ph.daluzz</footer>
+</body>
+
+</html>

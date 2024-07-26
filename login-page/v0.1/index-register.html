@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="style-register.css">
+    <script src="script-register.js" defer></script>
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="background-register">
+        <div id="conteiner-form-register">
+            <h1>PHtech Solutions</h1>
+            <form onsubmit="register(event)">
+
+                <label for="user-register">
+                    <input type="text" name="user-name-register" id="user-register" placeholder="USUÁRIO">
+                </label>
+
+                <label for="password-register">
+                    <input type="password" name="user-password-register" id="password-register" placeholder="SENHA">
+                </label>
+
+                <label for="confirm-pass">
+                    <input type="password" name="confirm-user-password" id="confirm-pass" placeholder="REPITA A SENHA">
+                </label>
+
+                <label for="user-email">
+                    <input type="email" name="user-email-register" id="user-email" placeholder="E-MAIL">
+                </label>
+
+                <a href="index-login.html">
+                    <button id="login-button" type="button" onclick="showLogIn()">JÁ POSSUI CONTA? ENTRAR</button>
+                </a>
+                <button id="register-button" type="submit">REGISTRAR</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>PÁGINA VOLTADA A ESTUDOS E PRÁTICA, CONTÉM ERROS A SEREM CORRIGIDOS, ESSA É A v0.1, OU SEJA, APENAS UM
+        PROTÓTIPO! @ph.daluzz</footer>
+</body>
+
+</html>
